@@ -1,0 +1,499 @@
+body{
+background-color:#2D2735;
+}
+header{
+background-color:#1C1821;
+}
+/*
+nav li{
+float:right;
+margin-top: 6%;
+margin-right:3%;
+font-family:Open Sans;
+font-style:italic;
+font-size:12px;
+text-transform: uppercase;
+color:white;
+}
+nav li:hover{
+color:#9430CA;
+}
+nav ul{
+list-style: none;
+}*/
+header, nav{
+    display: block;
+}
+nav li{
+font-family:Open Sans;
+color:white;
+font-style:italic;
+}
+/* Definimos un ancho 100% y una altura fija para nuestro menú */
+header{
+    background: #22282e;
+    height:80px;
+    position: relative;
+    width: 100%;
+    z-index: 2
+}
+
+/* El logo sera flotado a la izquierda */
+#logo{
+    background: url(logo.png) no-repeat 0 0;
+    display: block;
+    float: left;
+    margin: 6px 10px 0;
+    width: 82px;
+    height: 44px;
+    text-indent: -9999px
+}
+
+/* Nuestro nav con id #menu lo flotaremos a la derecha*/
+#menu{float: right;}   
+
+    /* Quitamos estilos por defecto de el tag UL */
+    #menu ul{
+        list-style: none;
+        font-size: 14px;
+    }
+        
+        /* Centramos y ponemos los textos en mayuscula */
+        #menu li{
+           display: block;
+           float: left;
+           text-transform: uppercase;
+           text-align: center;
+        }
+            
+            /* Damos estilo a nuestros enlaces */
+            #menu li a{
+                display: block;
+                color:white;
+                text-decoration: none;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 26px;
+                font-size:14px;
+                margin-top:12px;
+            }
+            #menu li a:hover{
+                background:#000033;
+                color:#cab5d8;
+            }
+    
+    /* Estilos #nav-mobile y lo ocultamos */
+    #nav-mobile{
+        display: none;
+        background: url(../image/nav.png) no-repeat center center;
+        float: right;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top:0;
+        opacity: .6;
+
+    }   
+        /* Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado */
+        #nav-mobile.nav-active{
+            opacity: 1;
+        }
+.flatimg{
+width:100%;
+height:100%;
+margin-top:6%;
+}
+.father{
+margin-top:4%;
+padding:11%;
+padding-bottom:10%;
+width:100%;
+background-size:cover;
+background-color:red;
+background-image:url(../image/header-image.jpg);
+background-repeat:no-repeat;
+}
+
+.son{
+background-color:#1C1821;
+padding:2%;
+width:60%;
+margin-left:30%;
+z-index:99;
+margin-left:20%;
+}
+.h1f{
+color:#F7BA6A;
+font-family:Courgette;
+font-size:73px;
+text-align: center;
+padding-top:0.4%;
+}
+
+.pf{
+color:white;
+font-family:Open Sans;
+font-style:italic;
+text-align: center;
+padding-top:3%;
+
+}
+
+span{
+font-style: italic;
+}
+
+.pa1{
+background-image:url(../image/image7.jpg);
+width:100%;
+height:30%;
+background-size:cover;
+margin-top:10%;
+padding-top:4%;
+}
+.pa2{
+background-image:url(../image/image3.jpg);
+width:100%;
+height:30%;
+background-size:cover;
+margin-top:10%;
+padding-top:4%;
+}
+.pa3{
+background-image:url(../image/image2.jpg);
+width:100%;
+height:30%;
+background-size:cover;
+margin-top:10%;
+padding-top:4%;
+}
+
+.hij{
+background-color:#1C1821;
+width:100%;
+padding:3%;
+margin-top:45.3%;
+z-index:99;
+}
+
+.floral1{
+font-family:Courgette;
+font-size:16px;
+text-align: center;
+padding-top:3%;
+color:#E4AB63;
+}
+.p1{
+color:white;
+font-size:12px;
+font-family:Open Sans;
+text-align: center;
+padding-top: 2%;
+padding-bottom:2%;
+font-style: italic;
+}
+
+.padre1{
+padding-top:4%; 
+margin-top:6%;
+width:100%;
+height:60%;
+background-image:url(../image/image4.jpg);
+background-size:cover;
+}
+
+.padre2{
+margin-top:0.2%;
+width:100%;
+}
+
+.hijo1{
+background-color:#1C1821;
+width:100%;
+padding:5%;
+margin-top:47.4%;
+z-index:99;
+}
+.hijo1 h1{
+color:#DBA560;
+font-family:Courgette;
+text-align: center;
+font-size:14px;
+padding-top:2%;
+}
+.hijo1 h2{
+color:white;
+font-family:Open Sans;
+font-weight:lighter;
+font-size:12px;
+font-style: italic;
+text-align: center;
+padding-top:1.5%;
+}
+.hijo1 p{
+color:white;
+font-family:Open Sans;
+font-size:11px;
+margin-left:13%;
+margin-right:6%;
+padding-top:2%;
+}
+.hijo2{
+background-color:#1C1821;
+width:100%;
+padding:3%;
+margin-top:-1%;
+z-index:99;
+margin-bottom:12%;
+}
+.hijo2 p{
+color:white;
+font-family:Open Sans;
+font-size:11px;
+padding-top:3%;
+margin-left:10%;
+margin-right:7%;
+padding-bottom:4%;
+
+}
+iframe{
+width:100%;
+height:280px;
+}
+.formulario{
+background-color:#1C1821;
+padding:5%;
+width:100%;
+margin-top:8.5%;
+}
+input{
+width:95%;
+padding:4%;
+margin-top:1%;
+margin-left:3%;
+padding-left:5%;
+background-color:#2D2735;
+border:none;
+
+}
+.aside-box{
+background-color:#1C1821;
+width:100%;
+padding-top:3%;
+margin-top:5%;
+padding-bottom:20%;
+}
+.aside-box h1{
+color:#DBA560;
+font-family:Courgette;
+text-align: center;
+}
+.aside-box h2{
+font-weight: bold;
+font-family:Open Sans;
+color:white;
+font-size:16px;
+text-align: center;
+padding-top:2%;
+}
+.aside-box p{
+color:white;
+font-family:Open Sans;
+font-size:12px;
+padding-top:3%;
+margin-left:20%;
+}
+.girl{
+width:100%;
+height:50%;
+padding-top:4%;	
+}
+.icon{
+margin-top:5%;
+}
+.fb{
+background-color:#2B2535;
+width:10%;
+padding:3%;
+border-radius:50%;
+padding-top:2%;
+padding-left:3%;
+margin-left:19%;
+margin-right:2%;
+float:left;
+color:white;
+margin-top:4%;
+}
+.insta{
+background-color:#2B2535;
+width:10%;
+padding:3%;
+border-radius:50%;
+padding-top:2%;
+padding-left:3%;
+margin-right:2%;
+float:left;
+color:white;
+margin-top:4%;
+}
+.twit{
+background-color:#2B2535;
+width:10%;
+padding:3%;
+border-radius:50%;
+padding-top:2%;
+padding-left:3%;
+margin-right:2%;
+float:left;
+color:white;
+margin-top:4%;
+}
+.you{
+background-color:#2B2535;
+width:10%;
+padding:3%;
+border-radius:50%;
+padding-top:2%;
+padding-left:3%;
+margin-right:2%;
+float:left;
+color:white;
+margin-top:4%;
+}
+
+footer p{
+color:#C8CCCC;
+background-color:#1C1821;
+width:100%;
+padding:4%;
+margin-top:2%;
+text-align: center;
+font-family:Open Sans;
+font-size:11px;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+  [class*="col-"]{
+  width:100% !important;
+  }
+  .formulario{
+  display: none;
+  }
+  .aside-box{
+  display: none;
+  }
+  *{
+  text-align: center;
+  }
+  .hijo1 h1{
+  margin-left:8%;
+  }
+  .hijo1 h2{
+  margin-left:7%;
+  }
+
+  h2{font-size: 40px;}
+    
+    /* mostramos #nav-mobile */
+    #nav-mobile{ display: block; }
+
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+    #menu{
+        width: 100%;
+        float: none;
+        padding-top: 60px;
+    }
+        /* Convertimos nuestra lista de enlaces en un menú horizontal */
+        #menu ul{
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            max-height: 0;
+            overflow: hidden;
+        }
+            /* estilos para los LI del menu */
+            #menu li{
+                background: #33363b;
+                border-bottom: 1px solid #282b30;
+                float: none;
+            }
+
+            /* Quitamos el borde del ultimo item del menú */
+            #menu li:last-child{ border-bottom: 0;}
+                #menu li a{
+                    padding: 15px 0;
+                    height: auto;
+                    line-height: normal;
+                }
+                #menu li a:hover{background:#2a2d33}
+
+        /* Agregamos una animación al despligue del menú */
+        #menu ul.open-menu{
+            max-height: 400px;
+            -webkit-transition: max-height .4s;
+            -moz-transition: max-height .4s;
+            -ms-transition: max-height .4s;
+            -o-transition: max-height .4s;
+            transition: max-height .4s;
+        }
+}
+
+@media screen and (max-width: 600px) {
+  [class*="col-"]{
+   width:100% !important;
+  }
+  .formulario{
+   display: none;
+  }
+  .aside-box{
+   display: none;
+  }
+
+  h2{font-size: 40px;}
+    
+    /* mostramos #nav-mobile */
+    #nav-mobile{ display: block; }
+
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+    #menu{
+        width: 100%;
+        float: none;
+        padding-top: 60px;
+    }
+        /* Convertimos nuestra lista de enlaces en un menú horizontal */
+        #menu ul{
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            max-height: 0;
+            overflow: hidden;
+        }
+            /* estilos para los LI del menu */
+            #menu li{
+                background: #33363b;
+                border-bottom: 1px solid #282b30;
+                float: none;
+            }
+
+            /* Quitamos el borde del ultimo item del menú */
+            #menu li:last-child{ border-bottom: 0;}
+                #menu li a{
+                    padding: 15px 0;
+                    height: auto;
+                    line-height: normal;
+                }
+                #menu li a:hover{background:#2a2d33}
+
+        /* Agregamos una animación al despligue del menú */
+        #menu ul.open-menu{
+            max-height: 400px;
+            -webkit-transition: max-height .4s;
+            -moz-transition: max-height .4s;
+            -ms-transition: max-height .4s;
+            -o-transition: max-height .4s;
+            transition: max-height .4s;
+        }
+}
+
