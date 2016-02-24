@@ -40,13 +40,15 @@ header{
 
 /* El logo sera flotado a la izquierda */
 #logo{
-    background: url(logo.png) no-repeat 0 0;
+   background-image: url(../image/header-logo.png);
     display: block;
     float: left;
     margin: 6px 10px 0;
-    width: 82px;
-    height: 44px;
-    text-indent: -9999px
+    width: 20%;
+    height: 60px;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Nuestro nav con id #menu lo flotaremos a la derecha*/
@@ -211,7 +213,7 @@ width:100%;
 .hijo1{
 background-color:#1C1821;
 width:100%;
-padding:5%;
+padding:6%;
 margin-top:47.4%;
 z-index:99;
 }
@@ -220,7 +222,7 @@ color:#DBA560;
 font-family:Courgette;
 text-align: center;
 font-size:14px;
-padding-top:2%;
+padding-top:1.5%;
 }
 .hijo1 h2{
 color:white;
@@ -235,14 +237,14 @@ padding-top:1.5%;
 color:white;
 font-family:Open Sans;
 font-size:11px;
-margin-left:13%;
+margin-left:9%;
 margin-right:6%;
 padding-top:2%;
 }
 .hijo2{
 background-color:#1C1821;
 width:100%;
-padding:3%;
+padding:4%;
 margin-top:-1%;
 z-index:99;
 margin-bottom:12%;
@@ -401,9 +403,10 @@ font-size:11px;
 
     /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
     #menu{
-        width: 100%;
-        float: none;
+        width:30%;
+        margin-left:65%;
         padding-top: 60px;
+        position:absolute;
     }
         /* Convertimos nuestra lista de enlaces en un menú horizontal */
         #menu ul{
@@ -426,8 +429,10 @@ font-size:11px;
                     padding: 15px 0;
                     height: auto;
                     line-height: normal;
+                    margin-top:0;
                 }
-                #menu li a:hover{background:#2a2d33}
+                #menu li a:hover{background:#000033;
+                color:#cab5d8;}
 
         /* Agregamos una animación al despligue del menú */
         #menu ul.open-menu{
@@ -483,8 +488,10 @@ font-size:11px;
                     padding: 15px 0;
                     height: auto;
                     line-height: normal;
+                    margin-top:0;
                 }
-                #menu li a:hover{background:#2a2d33}
+                #menu li a:hover{background:#000033;
+                color:#cab5d8;}
 
         /* Agregamos una animación al despligue del menú */
         #menu ul.open-menu{
